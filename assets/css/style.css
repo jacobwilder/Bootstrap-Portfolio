@@ -62,6 +62,10 @@ body {
     margin: 15px;
 }
 
+.row {
+    justify-content: center;
+}
+
 @media screen and (max-width: 640px) {
     header {position: static;}
     body {width: 100%}
@@ -74,12 +78,14 @@ body {
     body {width: 100%}
     .container {width: 100%}
     .row {width: 45%}
+    .col-md-4 {max-width: 45%;}
     #indexpic {width: 100%}
   }
   
   @media screen and (max-width: 980px) {
     body {width: 100%}
     .container {width: 100%}
-    .row {width: 45%}
+    .row {width: 100%;}
+    .col-md-4 {max-width: 45%;}
     #indexpic {width: 100%}
   }
