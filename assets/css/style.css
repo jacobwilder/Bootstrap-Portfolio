@@ -15,6 +15,9 @@ body {
     border-color: black;
 }
 
+.music {
+    margin: 0 auto 15px auto;
+}
 #indexpic {
     border-style: groove;
     border-width: 1px;
@@ -60,36 +63,15 @@ body {
     height: 178px;
 }
 
-.col-md-4 {
-    justify-content: center;
-    max-width: 30%;
-    margin: 15px;
-}
-
-.row {
-    justify-content: center;
-}
-
 @media screen and (max-width: 640px) {
-    header {position: static;}
-    body {width: 100%}
-    .container {width: 100%}
-    .row {width: 100%}
+    header {position: static;} 
     #indexpic {width: 100%}
   }
   
   @media screen and (max-width: 768px) {
-    body {width: 100%}
-    .container {width: 100%}
-    .row {width: 45%}
-    .col-md-4 {max-width: 45%;}
     #indexpic {width: 100%}
   }
   
   @media screen and (max-width: 980px) {
-    body {width: 100%}
-    .container {width: 100%}
-    .row {width: 100%;}
-    .col-md-4 {max-width: 45%;}
     #indexpic {width: 100%}
   }
