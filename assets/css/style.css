@@ -63,6 +63,20 @@ body {
     height: 178px;
 }
 
+.footer {
+    background-color: rgb(53, 52, 52);
+    color: cornsilk;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    height: 2.00rem;
+  }
+
+.paragraphcard {
+    margin-bottom: 5em;
+}
+
 @media screen and (max-width: 640px) {
     header {position: static;} 
     #indexpic {width: 100%}
